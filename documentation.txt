@@ -1,0 +1,3 @@
+background: #004953
+accent: #F2F3F4
+details: #898989, #85A1A6, ##ffffff4d
