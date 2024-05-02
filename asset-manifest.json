@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/anika-py/WhatTheFinance/static/css/main.4c68d070.css",
+    "main.js": "/anika-py/WhatTheFinance/static/js/main.450f7280.js",
+    "static/js/453.8ab44547.chunk.js": "/anika-py/WhatTheFinance/static/js/453.8ab44547.chunk.js",
+    "static/media/module1_boy.png": "/anika-py/WhatTheFinance/static/media/module1_boy.1eb4d05eedcb5e49b5f8.png",
+    "static/media/module1_girl.png": "/anika-py/WhatTheFinance/static/media/module1_girl.778ebc7bd08ef4bdfb72.png",
+    "static/media/module4_boy.png": "/anika-py/WhatTheFinance/static/media/module4_boy.3566033f9ec46f6155a0.png",
+    "static/media/module4_girl.png": "/anika-py/WhatTheFinance/static/media/module4_girl.6625a2d378d726311ee7.png",
+    "static/media/module3_boy.png": "/anika-py/WhatTheFinance/static/media/module3_boy.07160d94e03c00d85bfb.png",
+    "static/media/module2_boy.png": "/anika-py/WhatTheFinance/static/media/module2_boy.83b90bd39b9ef0cc7e35.png",
+    "static/media/module2_girl.png": "/anika-py/WhatTheFinance/static/media/module2_girl.9b0e279787cc0812e973.png",
+    "static/media/module5_boy.png": "/anika-py/WhatTheFinance/static/media/module5_boy.91d522d765269b09b90e.png",
+    "static/media/module3_girl.png": "/anika-py/WhatTheFinance/static/media/module3_girl.3838d417c381da21e4e5.png",
+    "static/media/module5_girl.png": "/anika-py/WhatTheFinance/static/media/module5_girl.52eeb0abe77e480c64a7.png",
+    "index.html": "/anika-py/WhatTheFinance/index.html",
+    "main.4c68d070.css.map": "/anika-py/WhatTheFinance/static/css/main.4c68d070.css.map",
+    "main.450f7280.js.map": "/anika-py/WhatTheFinance/static/js/main.450f7280.js.map",
+    "453.8ab44547.chunk.js.map": "/anika-py/WhatTheFinance/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c68d070.css",
+    "static/js/main.450f7280.js"
+  ]
+}
