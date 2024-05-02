@@ -1,8 +1,8 @@
 {
-  "homepage": "https://github.com/anika-py/WhatTheFinance",
+  "homepage": "https://anika-py.github.io/WhatTheFinance",
   "name": "frontend",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
     "@reduxjs/toolkit": "^1.9.7",
