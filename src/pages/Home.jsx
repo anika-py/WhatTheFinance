@@ -35,48 +35,50 @@ export const Home = () => {
     return (
         <div className="container">
             <div className="slide">
-                <div className="item" style={{ backgroundColor: '#F2E9DC' }}>
+                <div className="item" style={{ backgroundColor: '#F1F7ED' }}>
                     <div className="content">
                         <div className="name">Switzerland</div>
                         <div className="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
-                        <button>Take a Quiz</button>
+                        <button className="home-btn">Take a Quiz</button>
                     </div>
                 </div>
-                <div className="item" style={{ backgroundColor: '#F2E9DC' }}>
+                <div className="item" style={{ backgroundColor: '#F1F7ED' }}>
                     <div className="content">
                         <div className="name">What the Finance ?</div>
                         <div className="des">At WTF, we're dedicated to making financial education accessible to all. We aim to empower individuals with the knowledge and tools needed to achieve financial well-being.</div>
-                        <button>Contact Us</button>
+                        <Link to='/ContactUs'>
+                        <button className="home-btn">Contact Us</button>
+                        </Link>
                     </div>
                 </div>
-                <div className="item" style={{ backgroundColor: '#F2E9DC' }}>
+                <div className="item" style={{ backgroundColor: '#F1F7ED' }}>
                     <div className="content">
                         <div className="name">Iceland</div>
                         <div className="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
-                        <button>See More</button>
+                        <button className="home-btn">See More</button>
                     </div>
                 </div>
-                <div className="item" style={{ backgroundColor: '#F2E9DC' }}>
+                <div className="item" style={{ backgroundColor: '#F1F7ED' }}>
                     <div className="content">
                         <div className="name">Explore Our Modules</div>
                         <div className="des">Discover our engaging modules, covering key topics like investing, budgeting, and saving, to enhance your financial knowledge and skills.</div>
                         <Link to='/Modules'>
-                            <button>See More</button>
+                            <button className="home-btn">See More</button>
                         </Link>
                     </div>
                 </div>
-                <div className="item" style={{ backgroundColor: '#F2E9DC' }}>
+                <div className="item" style={{ backgroundColor: '#F1F7ED' }}>
                     <div className="content">
                         <div className="name">Netherland</div>
                         <div className="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
-                        <button>See More</button>
+                        <button className="home-btn">See More</button>
                     </div>
                 </div>
-                <div className="item" style={{ backgroundColor: '#F2E9DC' }}>
+                <div className="item" style={{ backgroundColor: '#F1F7ED' }}>
                     <div className="content">
                         <div className="name">Take Our Quiz</div>
                         <div className="des">Don't know where to start? Take our quick quiz to find out your financial literacy level. Get personalized recommendations on where to start your learning journey.</div>
-                        <button>Start</button>
+                        <button className="home-btn">Start</button>
                     </div>
                 </div>
             </div>

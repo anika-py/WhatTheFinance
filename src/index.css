@@ -21,7 +21,7 @@ body{
   overflow: hidden;
   border: 5px;
   position: relative;
-  background-color: #F2E9DC;
+  background-color: #F1F7ED;
   box-shadow: 3px 2px 5px black;
   margin-bottom: 40px;
   transition: transform 0.3s ease; /* Add smooth transition effect */
@@ -168,7 +168,7 @@ nav a:hover {
   transform: translate(-50%, -50%);
   width: 1000px;
   height: 500px;
-  background: #F2E9DC;
+  background: #F1F7ED;
   box-shadow: 0 30px 50px #dbdbdb;
   border-radius: 25px;
   
@@ -258,6 +258,16 @@ nav a:hover {
   animation: animate 1s ease-in-out 0.6s 1 forwards;
 }
 
+.home-btn {
+  background-color: #014A54;
+  color: white;
+  border-radius: 20px;
+}
+
+.home-btn:hover {
+  background-color: #162521;
+  color: white;
+}
 
 @keyframes animate {
   from{
@@ -293,9 +303,190 @@ nav a:hover {
   margin: 0 5px;
   border: 1px solid #000;
   transition: 0.3s;
+  background-color: #014A54;
+  color: white;
 }
 
 .button button:hover{
-  background: #ababab;
+  background: #162521;
   color: #fff;
+}
+
+/* Login/Signup */
+.auth-form-container {
+  margin-top: -3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 600px) {
+  .login-form, .register-form {
+    padding: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+    background-image: linear-gradient(79deg, #004953, #537A8E 48%, #83A5B5);
+  }
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.form-button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #004953;
+}
+
+.form-button:hover {
+  background-color: #162521;
+  color: white;
+}
+
+.link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+}
+
+/* Contact Us */
+.contact-container {
+  margin-top: 3rem;
+  color: white;  
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-image: linear-gradient(79deg, #004953, #537A8E 48%, #83A5B5);
+
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  border: none;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #004953;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #162521;
+  color: white;
+}
+
+/* Discussion Forum */
+
+.discussion-forum-container {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+.forum-post {
+  background-color: #537a8e;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.forum-post h2 {
+  margin-bottom: 10px;
+}
+
+.post-author {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.new-post-form {
+  background-color: #537a8e;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  text-align: center; /* Align form content to the left */
+}
+
+.new-post-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.new-post-form input,
+.new-post-form textarea {
+  width: calc(100% - 40px); /* Adjusted width */
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.new-post-form button {
+  background-color: white;
+  color: #004953;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-post-form button:hover {
+  background-color: #162521;
+  color: white;
 }

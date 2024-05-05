@@ -12,6 +12,7 @@ import module5_girl from '../assets/module5_girl.png'
 import module5_boy from '../assets/module5_boy.png'
 
 export const Modules = () => {
+  
   return (
     <div className="card-container">
       <div className="card-body">
@@ -33,7 +34,7 @@ export const Modules = () => {
       </div> 
 
       <div className="card-body">
-        <h1 className="card-title-3">INTEREST AND</h1>
+        <h1 className="card-title-3">BORROWINGS AND</h1>
         <h1 className="card-title-3-1">DEBT MANAGEMENT</h1>
         <p className="card-description-3">Understand how interest and debt affect your finances.</p>
         <p className="card-description-3">Learn to manage debt responsibly and make smart borrowing choices.</p>
