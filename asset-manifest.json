@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/WhatTheFinance/static/css/main.4c68d070.css",
-    "main.js": "/WhatTheFinance/static/js/main.fbe74956.js",
+    "main.css": "/WhatTheFinance/static/css/main.59d6745b.css",
+    "main.js": "/WhatTheFinance/static/js/main.50d60f17.js",
     "static/js/453.8ab44547.chunk.js": "/WhatTheFinance/static/js/453.8ab44547.chunk.js",
     "static/media/module1_boy.png": "/WhatTheFinance/static/media/module1_boy.1eb4d05eedcb5e49b5f8.png",
     "static/media/module1_girl.png": "/WhatTheFinance/static/media/module1_girl.778ebc7bd08ef4bdfb72.png",
@@ -14,12 +14,12 @@
     "static/media/module3_girl.png": "/WhatTheFinance/static/media/module3_girl.3838d417c381da21e4e5.png",
     "static/media/module5_girl.png": "/WhatTheFinance/static/media/module5_girl.52eeb0abe77e480c64a7.png",
     "index.html": "/WhatTheFinance/index.html",
-    "main.4c68d070.css.map": "/WhatTheFinance/static/css/main.4c68d070.css.map",
-    "main.fbe74956.js.map": "/WhatTheFinance/static/js/main.fbe74956.js.map",
+    "main.59d6745b.css.map": "/WhatTheFinance/static/css/main.59d6745b.css.map",
+    "main.50d60f17.js.map": "/WhatTheFinance/static/js/main.50d60f17.js.map",
     "453.8ab44547.chunk.js.map": "/WhatTheFinance/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c68d070.css",
-    "static/js/main.fbe74956.js"
+    "static/css/main.59d6745b.css",
+    "static/js/main.50d60f17.js"
   ]
 }
